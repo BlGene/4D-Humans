@@ -17,7 +17,7 @@ log = get_pylogger(__name__)
 
 class HMR2(pl.LightningModule):
 
-    def __init__(self, cfg: CfgNode, init_renderer: bool = True):
+    def __init__(self, cfg: CfgNode, init_renderer: bool = False):
         """
         Setup HMR2 model
         Args:
